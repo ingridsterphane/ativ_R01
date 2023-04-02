@@ -1,0 +1,61 @@
+body {
+    background-color: #9F8FD9;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-spacing: 100px;
+    border: 0;
+    padding: 0;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+
+
+}
+
+/* link que foi visitado */
+a:visited {
+    color: black;
+}
+
+/* mouse over */
+a:hover {
+    text-decoration: none;
+    background: purple;
+    color: #FFF;
+    font-weight: bold;
+}
+
+/* link selecionado */
+a:active {
+    color: red;
+}
+
+.Todos {
+    display: inline-block;
+}
+
+._img {
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+._titulo {
+    font-size: 1.6rem;
+    margin-top: 0.1px;
+    margin-bottom: 0rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}

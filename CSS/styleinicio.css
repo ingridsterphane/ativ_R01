@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9F8FD9;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-spacing: 100px;
+    border: 0;
+    padding: 0;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+
+
+}
+
+/* link que foi visitado */
+a:visited {
+    color: black;
+}
+
+/* mouse over */
+a:hover {
+    text-decoration: none;
+    background: purple;
+    color: #FFF;
+    font-weight: bold;
+}
+
+/* link selecionado */
+a:active {
+    color: red;
+}
+
+.titulo {
+    background-image: url("../IMG/onu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: purple;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 70px;
+    color: whitesmoke;
+    margin-top: 330px;
+    margin-left: 0px;
+}
+
+blockquote {
+    font-style: oblique;
+    color: black;
+    width: 40%;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    font-style: inherit;
+    background-color: #9F8FD9;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    border: 0;
+}
+
+@media(max-width:800px) {
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    word-spacing: 30px;
+ 
+}
+
+    .titulo {
+        background-image: url("../IMG/onu.png");
+        background-repeat: no-repeat;
+       width: 100%;
+       height: 300px;
+    }
+    h1 {
+        font-size: 30px;
+        color: whitesmoke;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+
+    blockquote {
+        display: inline-block;
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 2px;
+    }
+
+    footer {
+        margin-top: 10px;
+        margin-bottom: 0.5px;
+    }
+}
