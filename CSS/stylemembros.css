@@ -47,21 +47,20 @@ a:active {
 }
 
 .container {
-    margin-left: 180px;
     display: flex;
-    height: 100vh;
-    width: 70%;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    text-align: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 ._img {
-    text-align: center;
-    width: 200px;
-    margin: 12px;
-    margin-top: 35px;
-    margin-bottom: 30px;
+    height: 30vh;
+    width: 60%;
+    margin-top: 3rem;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
@@ -76,12 +75,10 @@ h2 {
 }
 
 footer {
-    display: block;
     font-style: inherit;
     background-color: #9F8FD9;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     margin-top: 100px;
-    margin-bottom: 1px;
     border: 0;
 }
