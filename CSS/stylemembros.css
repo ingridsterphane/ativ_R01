@@ -74,3 +74,14 @@ h2 {
     margin-left: 40px;
     margin-right: 10px;
 }
+
+footer {
+    display: block;
+    font-style: inherit;
+    background-color: #9F8FD9;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 1px;
+    border: 0;
+}
