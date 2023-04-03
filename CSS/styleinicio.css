@@ -4,12 +4,34 @@ body {
 }
 
 nav {
+    display: inline-block;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    word-spacing: 100px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    word-spacing: 10px;
     border: 0;
     padding: 0;
+}
+
+#cabecalho {
+    align-items: center;
+    margin-left: 220px;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 10px;
+
+}
+
+.logo img {
+    position: absolute;
+    height: 45px;
+    width: 50px;
+    margin-top: -14px;
+    margin-left: -15px;
+
 }
 
 /* link que ainda não foi visitado */
