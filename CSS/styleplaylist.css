@@ -11,6 +11,27 @@ nav {
     padding: 0;
 }
 
+.titulo {
+    background-image: url("../IMG/bts.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h1 {
+    background-color: #0D1940;
+    font-size: 40px;
+    color: white;
+    text-align:center;
+    margin-top: 70px;
+    margin-bottom:500px;
+}
+
 /* link que ainda não foi visitado */
 a:link {
     text-decoration: none;
@@ -40,3 +61,22 @@ a:active {
     color: red;
 }
 
+.playlists {
+    margin-top: 50px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bts { 
+    margin-left: 25px;
+}
+
+footer {
+    font-style: inherit;
+    background-color: #9F8FD9;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    border: 0;
+}
