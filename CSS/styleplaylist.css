@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #9F8FD9;
+    background: linear-gradient(#9F8FD9, rgb(207, 99, 229)) no-repeat;
 }
 
 nav {
@@ -75,7 +75,6 @@ a:active {
 
 footer {
     font-style: inherit;
-    background-color: #9F8FD9;
     text-align: center;
     padding: 10px;
     margin-top: 50px;
