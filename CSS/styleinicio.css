@@ -1,21 +1,26 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(#9F8FD9, rgb(207, 99, 229)) no-repeat;
+    background-image: linear-gradient( black 50%,rgb(182, 27, 213)130%);
+
 }
 
 nav {
-    display: inline-block;
+    font-size: 20px;
+    display: flex;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 16px;
-    word-spacing: 10px;
+    margin-bottom: 20px;
     border: 0;
     padding: 0;
 }
 
 #cabecalho {
     align-items: center;
-    margin-left: 220px;
+    justify-content: space-between;
+    margin-left: 60px;
+    height: 30px;
+    width: 22%;
+    padding: 5px;
 }
 
 .logo {
@@ -25,42 +30,40 @@ nav {
 
 }
 
-.logo img {
+.logo_img {
     position: absolute;
-    height: 45px;
-    width: 50px;
-    margin-top: -14px;
-    margin-left: -15px;
+    height: 50px;
+    width: 55px;
+    margin-top: -5px;
+    margin-left: -50px;
 
 }
 
 /* link que ainda não foi visitado */
 a:link {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     border-radius: 20px;
     padding: 5px;
-
 
 }
 
 /* link que foi visitado */
 a:visited {
-    color: black;
+    color: white;
 }
 
 /* mouse over */
 a:hover {
-    text-decoration: none;
-    background: purple;
-    color: #FFF;
+    text-decoration: underline;
+    color: purple;
     font-weight: bold;
 }
 
 /* link selecionado */
 a:active {
-    color: red;
+    color: #9b9b9b;
 }
 
 .titulo {
@@ -85,8 +88,8 @@ h1 {
 }
 
 blockquote {
-    font-style: oblique;
-    color: black;
+    font-family: 'Lily Script One', cursive;
+    color: white;
     width: 40%;
     display: inline-block;
     margin-left: 70px;
@@ -99,43 +102,12 @@ footer {
     font-style: inherit;
     text-align: center;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 70px;
     border: 0;
 }
 
 @media(max-width:800px) {
 
-nav {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    word-spacing: 30px;
- 
-}
 
-    .titulo {
-        background-image: url("../IMG/onu.png");
-        background-repeat: no-repeat;
-       width: 100%;
-       height: 300px;
-    }
-    h1 {
-        font-size: 30px;
-        color: whitesmoke;
-        margin-top: 100px;
-        margin-left: 10px;
-    }
-
-    blockquote {
-        display: inline-block;
-        width: 100%;
-        margin-top: 0px;
-        margin-left: 2px;
-    }
-
-    footer {
-        margin-top: 10px;
-        margin-bottom: 0.5px;
-    }
 }
 
