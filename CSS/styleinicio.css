@@ -102,6 +102,10 @@ footer {
 /* Responsividade do Site */
 @media(max-width:500px) {
 
+    * {
+        margin: 0;
+    }
+
     .cabecalho {
         margin-left: 0px;
     }
